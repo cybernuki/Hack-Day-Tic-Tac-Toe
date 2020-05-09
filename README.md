@@ -4,9 +4,15 @@ Some implementations of tic tac toe game using scala and groovit
 
 ## Requirements :scroll:
 
-* Install scala
-* JDK java 8+
-* Install Groovy 3
+### Scala requeriments
+
+* Scala 2.11.*
+* jdk 1.8
+
+### Groovy requeriments
+
+* Groovy 3.4
+* jdk 1.8
 
 ## [TicTacToe.scala](https://github.com/cybernuki/Hack-Day-Tic-Tac-Toe/blob/master/TicTacToe.scala)
 
@@ -15,19 +21,19 @@ Some implementations of tic tac toe game using scala and groovit
 ### Compiled
 
 ~~~bash
-$ fsc TicTacToe.scala
+$ fsc main.scala
 ~~~
 
 ### Run
 
 ~~~bash
-$ scala TicTacToe
+$ scala Main
 ~~~
 
 ### Example
 
 ~~~bash
-$ scala TicTacToe
+$ scala Main
 Welcome to this Tick Tack Toe game implementation in scala!
 Choose who you are going to play with
 1: Machine              2: Player
